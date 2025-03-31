@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-03-30T18:29:06.596Z",
+    "userId": 1,
+    "syscall": "read",
+    "params": [
+      "1",
+      "2",
+      "3"
+    ],
+    "result": "Read 3 bytes from FD 1",
+    "success": true
+  },
+  {
+    "timestamp": "2025-03-31T10:53:51.884Z",
+    "userId": 1,
+    "syscall": "read",
+    "params": [
+      "3",
+      "\"buffer\"",
+      "1024"
+    ],
+    "result": "Read 1024 bytes from FD 3",
+    "success": true
+  },
+  {
+    "timestamp": "2025-03-31T10:55:00.046Z",
+    "userId": 1,
+    "syscall": "write",
+    "params": [
+      "1",
+      "\"Hello World\"",
+      "11]"
+    ],
+    "result": "Wrote 11] bytes to FD 1",
+    "success": true
+  }
+]
